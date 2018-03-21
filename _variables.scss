@@ -1,0 +1,10 @@
+$font-stack: Open Sans, sans-serif;
+
+$primary-color: rgb(237, 43, 26);
+
+$primary-color2: rgb(39, 47, 236);
+
+@mixin box ($width){
+  width: $width;
+  height: $width;
+}
